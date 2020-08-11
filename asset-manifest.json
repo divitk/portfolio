@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b3e89040.chunk.css",
-    "main.js": "/portfolio/static/js/main.21a09d43.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.21a09d43.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.594a22c1.chunk.css",
+    "main.js": "/portfolio/static/js/main.23428482.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.23428482.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.6a9d513d.chunk.js": "/portfolio/static/js/2.6a9d513d.chunk.js",
-    "static/js/2.6a9d513d.chunk.js.map": "/portfolio/static/js/2.6a9d513d.chunk.js.map",
+    "static/css/2.64bfc787.chunk.css": "/portfolio/static/css/2.64bfc787.chunk.css",
+    "static/js/2.3a922f59.chunk.js": "/portfolio/static/js/2.3a922f59.chunk.js",
+    "static/js/2.3a922f59.chunk.js.map": "/portfolio/static/js/2.3a922f59.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1011ef45ead224485c548d2912077129.js": "/portfolio/precache-manifest.1011ef45ead224485c548d2912077129.js",
+    "precache-manifest.0193391498bd4be9c018930ff9576720.js": "/portfolio/precache-manifest.0193391498bd4be9c018930ff9576720.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.b3e89040.chunk.css.map": "/portfolio/static/css/main.b3e89040.chunk.css.map",
-    "static/js/2.6a9d513d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6a9d513d.chunk.js.LICENSE.txt",
-    "static/media/mine.jpg": "/portfolio/static/media/mine.1fd8e06c.jpg"
+    "static/css/2.64bfc787.chunk.css.map": "/portfolio/static/css/2.64bfc787.chunk.css.map",
+    "static/css/main.594a22c1.chunk.css.map": "/portfolio/static/css/main.594a22c1.chunk.css.map",
+    "static/js/2.3a922f59.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3a922f59.chunk.js.LICENSE.txt",
+    "static/media/MERN.png": "/portfolio/static/media/MERN.d06954f1.png",
+    "static/media/Wordpress.jpg": "/portfolio/static/media/Wordpress.1337250d.jpg",
+    "static/media/code.jpg": "/portfolio/static/media/code.f8753811.jpg",
+    "static/media/fitness.jpg": "/portfolio/static/media/fitness.7811376e.jpg",
+    "static/media/home.jpeg": "/portfolio/static/media/home.c3c3e762.jpeg",
+    "static/media/mine.jpg": "/portfolio/static/media/mine.1fd8e06c.jpg",
+    "static/media/netflix.jpg": "/portfolio/static/media/netflix.b2fcf3d6.jpg",
+    "static/media/trek.jpg": "/portfolio/static/media/trek.6eff9f44.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.6a9d513d.chunk.js",
-    "static/css/main.b3e89040.chunk.css",
-    "static/js/main.21a09d43.chunk.js"
+    "static/css/2.64bfc787.chunk.css",
+    "static/js/2.3a922f59.chunk.js",
+    "static/css/main.594a22c1.chunk.css",
+    "static/js/main.23428482.chunk.js"
   ]
 }
