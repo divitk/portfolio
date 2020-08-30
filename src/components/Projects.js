@@ -415,7 +415,7 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >HeadOut</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1AVYTT_9CkO7e_E-xThEajtVTm_Z9Stzd/view?usp=sharing'}}>
+        <span >HeadOut</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/17VmeXbID4IlNq6PS4Bsa4VkALYaiSCOf/view?usp=sharing'}}>
 Details
 </Button>
         </Card.Body>

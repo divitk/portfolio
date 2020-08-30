@@ -89,16 +89,8 @@ class Chart extends Component {
              fontStyle: '550'
             }}],
       },tooltips: {
-            callbacks: {
-                label: function(tooltipItem, data) {
-                    var label = data.datasets[tooltipItem.datasetIndex].label || '';
-                    if (label) {
-                        label += ': ';
-                    }
+        enabled: false,
 
-                    return 'Skill';
-                }
-            }
         },
 
 

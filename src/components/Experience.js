@@ -4,7 +4,7 @@ import DevOps from '../images/devOps.png';
 
 import 'react-vertical-timeline-component/style.min.css';
 
-import '../css/Experience.css';
+import '../css/experience.css';
 
 function Experience() {
   return (
