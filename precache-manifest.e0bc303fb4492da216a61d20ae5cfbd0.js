@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcebd3f790581fcf29b4f808399b48af",
+    "revision": "b0637a4c58e13e30a86d6d262e19a584",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "827bbbcf30b867477092",
+    "revision": "d456004b52e6c39f0561",
     "url": "/portfolio/static/css/2.1565e3d1.chunk.css"
   },
   {
-    "revision": "7423e2d79bf75b3aaf25",
-    "url": "/portfolio/static/css/main.eeaa7c44.chunk.css"
+    "revision": "370a49162a9e3dbda798",
+    "url": "/portfolio/static/css/main.203a87ae.chunk.css"
   },
   {
-    "revision": "827bbbcf30b867477092",
-    "url": "/portfolio/static/js/2.a9ed1cbb.chunk.js"
+    "revision": "d456004b52e6c39f0561",
+    "url": "/portfolio/static/js/2.be4492de.chunk.js"
   },
   {
     "revision": "176852ae27885dfd7559e0fb4b332d24",
-    "url": "/portfolio/static/js/2.a9ed1cbb.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.be4492de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7423e2d79bf75b3aaf25",
-    "url": "/portfolio/static/js/main.47e71438.chunk.js"
+    "revision": "370a49162a9e3dbda798",
+    "url": "/portfolio/static/js/main.62bd6247.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -60,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/e-toilet-in-india.e59ae688.jpg"
   },
   {
-    "revision": "dabfcb203d1529e89629fc1605d02841",
-    "url": "/portfolio/static/media/gifgit.dabfcb20.jpg"
-  },
-  {
     "revision": "b5a365d346c1929f1cbacc5277ccd10d",
     "url": "/portfolio/static/media/gmail.b5a365d3.png"
   },
@@ -72,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/headout.b189df81.png"
   },
   {
-    "revision": "cc6833b2c366ff92defdcd2839acd142",
-    "url": "/portfolio/static/media/linkedin_b.cc6833b2.png"
+    "revision": "6a55ef3689624bcb95486fa636c65431",
+    "url": "/portfolio/static/media/linkedin 2.6a55ef36.png"
   },
   {
     "revision": "448c8a59ab31ff04bb055c4caefa4d1c",
@@ -90,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0927581e090202c04ec490d9e9d68277",
     "url": "/portfolio/static/media/medium_b.0927581e.png"
+  },
+  {
+    "revision": "dabfcb203d1529e89629fc1605d02841",
+    "url": "/portfolio/static/media/mine.dabfcb20.jpg"
   },
   {
     "revision": "73094f7c089171bd90e74c89cc6d36ab",
