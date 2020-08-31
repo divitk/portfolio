@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {  HorizontalBar } from "react-chartjs-2";
 import VerticalChart from './Vertical.js'
+import 'chartjs-plugin-deferred';
 
 class Chart extends Component {
   constructor(props) {
@@ -91,6 +92,13 @@ class Chart extends Component {
       },tooltips: {
         enabled: false,
 
+        },
+        plugins: {
+         deferred: {
+            enabled: true,
+            yOffset: '50%',
+            delay: 1000
+         }
         },
 
 
