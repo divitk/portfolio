@@ -70,7 +70,7 @@ function Experience() {
       <h3 style={{ color: '#61b8ff' }}>Neebal Technologies</h3>
       <h4 style={{ color: '#61b8ff' }}><img src="https://img.icons8.com/color/48/000000/teacher.png" alt='loading..' />Teacher</h4>
       <p>
-      - Teaching programming languages like C, C++ and Java
+      - Taught programming languages like C, C++ and Java
       </p>
 
     </TimelineItem>
