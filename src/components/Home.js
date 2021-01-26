@@ -26,7 +26,7 @@ function AboutMe() {
 
         <h1 className='mb-1'>Hi, I’m Divit Karmiani,</h1>
         <Typist cursor={{ hideWhenDone: true }}>
-        <span className=''>DevOps Engineer</span>
+        <span className=''>Aspiring Product Manager</span>
         </Typist>
         <h1 className=''>based in Mumbai.</h1>
         <a className='ml-1' href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin} height='40px'  alt='loading..' /></a>

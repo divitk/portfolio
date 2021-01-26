@@ -18,6 +18,9 @@ import Musicstreaming from '../images/musicstreaming.png';
 import Zomato from '../images/Zomato.jpeg';
 import Lyft from '../images/Lyft.jpg';
 import HeadOut from '../images/headout.png';
+import IMDB from '../images/imdb.png';
+import Credit from '../images/creditloan.jpg';
+import Bike from '../images/bike.png';
 
 
 import Card from 'react-bootstrap/Card';
@@ -122,7 +125,7 @@ return (
      >
        <Tab className='t' label="Engineering Final year project" {...a11yProps(0)} />
        <Tab label="Product Management Coursework" {...a11yProps(1)} />
-       <Tab label="Product Design and Research Coursework" {...a11yProps(2)} />
+       <Tab label="Data Science Coursework" {...a11yProps(2)} />
      </Tabs>
      <Tabs
         className='Tabs-lg d-none d-lg-block'
@@ -137,7 +140,7 @@ return (
      >
        <Tab label="Engineering Final year project" {...a11yProps(0)} />
        <Tab  label="Product Management Coursework" {...a11yProps(1)} />
-       <Tab label="Product Design and Research Coursework" {...a11yProps(2)} />
+       <Tab label="Data Science Coursework" {...a11yProps(2)} />
      </Tabs>
    </Paper>
    <SwipeableViews
@@ -344,7 +347,7 @@ Details
 
 
      </CardDeck>
-     <CardDeck className='CardDeck-big2'>
+     <CardDeck className='CardDeck-lg'>
 
 
             <Card className='musicCard'>
@@ -375,6 +378,36 @@ Details
 
             </Card>
 
+            <Card>
+                <Card.Img variant="top" className='im' src={Lyft} alt='loading..' />
+
+                <Card.ImgOverlay >
+                    <div className='card-ImgOverlay'>
+                        <Card.Title className=''>Business Model canvas and Value Proposition canvas</Card.Title>
+
+                    </div>
+                </Card.ImgOverlay>
+                <Card.Body >
+                     <span >Lyft</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/10KgQKMxkhv1MZq3Y-_ukVbDssdPK5CVN/view?usp=sharing'}}>
+                     Details
+                     </Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                 <Card.Img variant="top" className='im' src={HeadOut} alt='loading..' />
+
+                 <Card.ImgOverlay >
+                     <div className='card-ImgOverlay'>
+                         <Card.Title className=''>Product Critique</Card.Title>
+
+                     </div>
+                 </Card.ImgOverlay>
+                 <Card.Body >
+                     <span >HeadOut</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/17VmeXbID4IlNq6PS4Bsa4VkALYaiSCOf/view?usp=sharing'}}>
+                      Details
+                     </Button>
+                 </Card.Body>
+            </Card>
 
 
 
@@ -387,40 +420,55 @@ Details
 
      </TabPanel>
      <TabPanel value={value} index={2} dir={theme.direction}>
-     <CardDeck className='CardDeck-big3'>
+     <CardDeck className='CardDeck-lg'>
 
 
        <Card>
-         <Card.Img variant="top" className='im' src={Lyft} alt='loading..' />
+         <Card.Img variant="top" className='im' src={IMDB} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Business Model canvas and Value Proposition canvas</Card.Title>
+         <Card.Title className=''>Visualization</Card.Title>
 
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Lyft</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/10KgQKMxkhv1MZq3Y-_ukVbDssdPK5CVN/view?usp=sharing'}}>
+        <span >IMDB Movie Dataset</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/IMDB-Movie-Dataset-Visualization'}}>
     Details
   </Button>
         </Card.Body>
        </Card>
        <Card>
-         <Card.Img variant="top" className='im' src={HeadOut} alt='loading..' />
+         <Card.Img variant="top" className='im' src={Credit} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Product Critique</Card.Title>
+         <Card.Title className=''>EDA Case Study</Card.Title>
 
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >HeadOut</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/17VmeXbID4IlNq6PS4Bsa4VkALYaiSCOf/view?usp=sharing'}}>
+        <span >Credit Loan Dataset</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://github.com/divitk/Credit-Dataset-EDA'}}>
 Details
 </Button>
         </Card.Body>
        </Card>
 
+       <Card>
+         <Card.Img variant="top" className='im' src={Bike} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Linear Regression</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >Bike Demand Dataset</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Bike-Demand-Dataset-Linear-Regression'}}>
+    Details
+  </Button>
+        </Card.Body>
+       </Card>
 
 
      </CardDeck>

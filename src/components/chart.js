@@ -18,10 +18,10 @@ class Chart extends Component {
     LegendPosition: "top",
     level: "Skills",
     data: {
-      labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management"],
+      labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management","Data Science"],
       datasets: [
         {
-          data: [4,2,2,3,2,2,2,1,1,0],
+          data: [4,2,2,3,2,2,2,1,1,1,0],
           backgroundColor: [
             "rgba(54, 162, 235, 0.6)",
             "rgba(255, 206, 86, 0.6)",
@@ -31,7 +31,8 @@ class Chart extends Component {
             "rgba(255, 99, 132, 0.6)",
             "rgba(100, 30, 55, 0.6)",
             "rgba(255, 159, 32, 0.6)",
-            "rgba(255, 99, 92, 0.6)"
+            "rgba(255, 99, 92, 0.6)",
+            "rgba(160, 73, 186, 0.6)"
           ],
               label: false
         }
@@ -59,8 +60,8 @@ class Chart extends Component {
               fontColor: '#000',
              fontStyle: '300',
               maxTicksLimit: 5,
-              barThickness: 20,
-               maxBarThickness: 20,
+              barThickness: 15,
+               maxBarThickness: 15,
               callback: function(label, index, labels) {
                 console.log("label is: " );
                 if (label === 4) {
