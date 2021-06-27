@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Bar } from "react-chartjs-2";
+import 'chartjs-plugin-deferred';
 
 class VerticalChart extends Component {
   constructor(props) {
@@ -102,6 +103,13 @@ class VerticalChart extends Component {
                 }
             }
         },
+        plugins: {
+          deferred: {
+             enabled: true,
+             yOffset: '50%',
+             delay: 500
+          }
+         },
 
 
     }

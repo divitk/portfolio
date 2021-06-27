@@ -22,7 +22,6 @@ function AboutMe() {
         </Col>
         <Col xs={12}  sm={7} className=''>
         <div className='AboutText'>
-        <p>WELCOME TO MY WORLD</p>
 
         <h1 className='mb-1'>Hi, I’m Divit Karmiani,</h1>
         <Typist cursor={{ hideWhenDone: true }}>

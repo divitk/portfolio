@@ -38,7 +38,7 @@ function Experience() {
     </TimelineItem>
     <TimelineItem
       key="002"
-      dateText="06/2020 – Present"
+      dateText="06/2020 – 06/2021"
       dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
       bodyContainerStyle={{
         background: '#ddd',
@@ -58,7 +58,7 @@ function Experience() {
     </TimelineItem>
     <TimelineItem
       key="058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW"
-      dateText="06/2019 – 05/2020"
+      dateText="06/2019 – 10/2020"
       dateInnerStyle={{ background: '#e86971' , color: '#000' }}
       bodyContainerStyle={{
         background: '#ddd',

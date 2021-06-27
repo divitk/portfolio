@@ -98,7 +98,7 @@ class Chart extends Component {
          deferred: {
             enabled: true,
             yOffset: '50%',
-            delay: 1000
+            delay: 500
          }
         },
 
