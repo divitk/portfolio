@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.203a87ae.chunk.css",
-    "main.js": "/portfolio/static/js/main.903c8812.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.903c8812.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.463c7d68.chunk.css",
+    "main.js": "/portfolio/static/js/main.a9c72c5f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a9c72c5f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.1565e3d1.chunk.css": "/portfolio/static/css/2.1565e3d1.chunk.css",
-    "static/js/2.fd130fa0.chunk.js": "/portfolio/static/js/2.fd130fa0.chunk.js",
-    "static/js/2.fd130fa0.chunk.js.map": "/portfolio/static/js/2.fd130fa0.chunk.js.map",
+    "static/js/2.af17ef37.chunk.js": "/portfolio/static/js/2.af17ef37.chunk.js",
+    "static/js/2.af17ef37.chunk.js.map": "/portfolio/static/js/2.af17ef37.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dcabc95bdcc353efcdad7c3f55bcf477.js": "/portfolio/precache-manifest.dcabc95bdcc353efcdad7c3f55bcf477.js",
+    "precache-manifest.1ba5f769ff36d5146a6e85e8ac3a4f41.js": "/portfolio/precache-manifest.1ba5f769ff36d5146a6e85e8ac3a4f41.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.1565e3d1.chunk.css.map": "/portfolio/static/css/2.1565e3d1.chunk.css.map",
-    "static/css/main.203a87ae.chunk.css.map": "/portfolio/static/css/main.203a87ae.chunk.css.map",
-    "static/js/2.fd130fa0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fd130fa0.chunk.js.LICENSE.txt",
+    "static/css/main.463c7d68.chunk.css.map": "/portfolio/static/css/main.463c7d68.chunk.css.map",
+    "static/js/2.af17ef37.chunk.js.LICENSE.txt": "/portfolio/static/js/2.af17ef37.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/portfolio/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/portfolio/static/media/Flatmate.55b33524.png",
     "static/media/Lyft.jpg": "/portfolio/static/media/Lyft.286bb3fe.jpg",
@@ -33,13 +33,14 @@
     "static/media/musicstreaming.png": "/portfolio/static/media/musicstreaming.73094f7c.png",
     "static/media/redbus.png": "/portfolio/static/media/redbus.ce3222a4.png",
     "static/media/styles.css": "/portfolio/static/media/revicons.2feb69cc.eot",
+    "static/media/siri.jpg": "/portfolio/static/media/siri.9b8084e3.jpg",
     "static/media/userjourneymap.png": "/portfolio/static/media/userjourneymap.ace62b3c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.1565e3d1.chunk.css",
-    "static/js/2.fd130fa0.chunk.js",
-    "static/css/main.203a87ae.chunk.css",
-    "static/js/main.903c8812.chunk.js"
+    "static/js/2.af17ef37.chunk.js",
+    "static/css/main.463c7d68.chunk.css",
+    "static/js/main.a9c72c5f.chunk.js"
   ]
 }
