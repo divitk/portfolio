@@ -107,7 +107,7 @@ class VerticalChart extends Component {
           deferred: {
              enabled: true,
              yOffset: '50%',
-             delay: 500
+             delay: 200
           }
          },
 
