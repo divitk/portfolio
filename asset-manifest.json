@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3974da53.chunk.css",
-    "main.js": "/portfolio/static/js/main.c05ba8ab.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c05ba8ab.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4f7d16cc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4f7d16cc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.20a9cf4a.chunk.css": "/portfolio/static/css/2.20a9cf4a.chunk.css",
-    "static/js/2.65c6b1f6.chunk.js": "/portfolio/static/js/2.65c6b1f6.chunk.js",
-    "static/js/2.65c6b1f6.chunk.js.map": "/portfolio/static/js/2.65c6b1f6.chunk.js.map",
+    "static/js/2.f2fd6ebc.chunk.js": "/portfolio/static/js/2.f2fd6ebc.chunk.js",
+    "static/js/2.f2fd6ebc.chunk.js.map": "/portfolio/static/js/2.f2fd6ebc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3e7be37e98cf3e5566558274be2b2494.js": "/portfolio/precache-manifest.3e7be37e98cf3e5566558274be2b2494.js",
+    "precache-manifest.27bd5b832ee0de2c4bfe7ac4e6a18b39.js": "/portfolio/precache-manifest.27bd5b832ee0de2c4bfe7ac4e6a18b39.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.20a9cf4a.chunk.css.map": "/portfolio/static/css/2.20a9cf4a.chunk.css.map",
     "static/css/main.3974da53.chunk.css.map": "/portfolio/static/css/main.3974da53.chunk.css.map",
-    "static/js/2.65c6b1f6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.65c6b1f6.chunk.js.LICENSE.txt",
+    "static/js/2.f2fd6ebc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f2fd6ebc.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/portfolio/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/portfolio/static/media/Flatmate.55b33524.png",
     "static/media/Lyft.jpg": "/portfolio/static/media/Lyft.286bb3fe.jpg",
     "static/media/MeruVsOla2.jpg": "/portfolio/static/media/MeruVsOla2.656d39f0.jpg",
     "static/media/Onlinefurniture.png": "/portfolio/static/media/Onlinefurniture.980d8077.png",
     "static/media/Zomato.jpeg": "/portfolio/static/media/Zomato.f8ca9a4d.jpeg",
+    "static/media/cultfit.png": "/portfolio/static/media/cultfit.7a38fa3a.png",
     "static/media/devOps.png": "/portfolio/static/media/devOps.83260087.png",
     "static/media/e-toilet-in-india.jpg": "/portfolio/static/media/e-toilet-in-india.e59ae688.jpg",
     "static/media/gmail.png": "/portfolio/static/media/gmail.b5a365d3.png",
@@ -39,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.20a9cf4a.chunk.css",
-    "static/js/2.65c6b1f6.chunk.js",
+    "static/js/2.f2fd6ebc.chunk.js",
     "static/css/main.3974da53.chunk.css",
-    "static/js/main.c05ba8ab.chunk.js"
+    "static/js/main.4f7d16cc.chunk.js"
   ]
 }
