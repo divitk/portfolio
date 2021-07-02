@@ -23,6 +23,7 @@ import Credit from '../images/creditloan.jpg';
 import Bike from '../images/bike.png';
 import Siri from '../images/siri.jpg';
 import Book from '../images/buysellbookonline.jpg';
+import Cultfit from '../images/cultfit.png';
 
 
 import Card from 'react-bootstrap/Card';
@@ -449,8 +450,8 @@ Details
         </Card.Body>
 
        </Card>
-       <Card style={{visibility:"hidden"}}>
-         <Card.Img variant="top" className='im' src={Siri} alt='loading..' />
+       <Card>
+         <Card.Img variant="top" className='im' src={Cultfit} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
@@ -459,7 +460,7 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Hey Siri! Let's add something new</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://divitkarmiani1998.medium.com/hey-siri-lets-add-a-new-feature-in-you-e418075855e1'}}>
+        <span >Analysis of Cult.Fit app</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://divitkarmiani1998.medium.com/analysis-of-cult-fit-app-4753d6444e72'}}>
 Details
 </Button>
         </Card.Body>
