@@ -366,11 +366,11 @@ Details
 
              <Container fluid style={{padding:'0px'}}>
                  <Row>
-                    <Col xs={9}  className=''>
+                    <Col xs={8}  className=''>
                    <span className=''>Product Adoption lifecycle for Music streaming services</span>
 
                         </Col>
-                   <Col xs={3}  className='text-right'>
+                   <Col xs={4}  className='text-right'>
                    <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/analyse-the-product-adoption-lifecycle-for-music-streaming-services-in-india-6d51815887c4'}}>
                 Details
                 </Button>
@@ -444,12 +444,23 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Hey Siri! Let's add something new</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://divitkarmiani1998.medium.com/hey-siri-lets-add-a-new-feature-in-you-e418075855e1'}}>
-Details
-</Button>
+         <Container fluid style={{padding:'0px'}}>
+                 <Row>
+                    <Col xs={8}  className=''>
+                   <span className=''>Hey Siri! Let's add something new</span>
+
+                        </Col>
+                   <Col xs={4}  className='text-right'>
+                   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://divitkarmiani1998.medium.com/hey-siri-lets-add-a-new-feature-in-you-e418075855e1'}}>
+                Details
+                </Button>
+                  </Col>
+                 </Row>
+               </Container>
         </Card.Body>
 
        </Card>
+       
        <Card>
          <Card.Img variant="top" className='im' src={Cultfit} alt='loading..' />
 
@@ -466,7 +477,6 @@ Details
         </Card.Body>
 
        </Card>
-
 
      </CardDeck>
 
