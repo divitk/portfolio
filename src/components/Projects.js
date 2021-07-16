@@ -325,7 +325,7 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Zivame</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1EtWVbQnragHUbCA8yYRDlMRFeyIKm7et/view?usp=sharing'}}>
+        <span >Zivame</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1lIcz-ZGGDjeBVP2zPFq9PKR0Pa_wqqjB/view?usp=sharing'}}>
 Details
 </Button>
         </Card.Body>
