@@ -20,16 +20,16 @@ function Testimonials() {
     <Carousel controls={false} >
       <Carousel.Item className=" text-center">
 
-<div className='testimonial-para text-center'>
+<div className='testimonial-para-jude text-center'>
           <p align="justify">Divit had studied and worked with me as a Teaching Intern. He has an excellent aptitude to learn anything new and teach. All his students were happy to learn from him. I wish him best of luck.</p>
 </div>
 
-<Container className='testimonial' style={{width:'450px'}}>
+<Container className='jude'>
     <Row >
-       <Col xs={3}  className='text-right' style={{padding:'0px'}}>
+       <Col className='text-right'>
        <Image className='img-fluid' src={Jude} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
            </Col>
-      <Col xs={9}  className='text-left px-3'  >
+      <Col xs={9}  className='text-left' style={{padding:'0px'}}>
       <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Jude Miranda. </p>
       <p style={{padding:'0px', margin:'0px'}}>Founder, Techmentry.com and Neebal.com</p>
       </Col>
@@ -39,16 +39,16 @@ function Testimonials() {
 
       <Carousel.Item className=" text-center">
 
-<div className='testimonial-para text-center'>
+<div className='testimonial-para-mohit text-center'>
 <p align="justify">I have been working with Divit since he joined Amadeus. Within few days after joining he was able to make his visibility across teams. I thoroughly enjoyed my time working with Divit and came to know him as a truly valuable asset to our team. He is an impressive problem solver who is able to address complex issues strategically and confidently. He is a true team player, and always fosters positive discussions and tries to bring the best out of teammates.</p>
 </div>
 
-<Container className='testimonial' style={{width:'450px'}}>
+<Container className='mohit'>
     <Row >
-       <Col xs={3}  className='text-right' style={{padding:'0px'}}>
+       <Col className='text-right'>
        <Image className='img-fluid' src={Mohit} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
            </Col>
-      <Col xs={9}  className='text-left px-3'  >
+      <Col xs={9}  className='text-left' style={{padding:'0px'}}>
       <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Mohit Kumar</p>
       <p style={{padding:'0px', margin:'0px'}}>Member Technical Staff at Amadeus</p>
       </Col>
