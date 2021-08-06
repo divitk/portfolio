@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5628000e342f168b2dab66718df9508b",
+    "revision": "d56a3159dfb4e134e3cabee14bf8ee44",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f2ade99ff0e143d02223",
+    "revision": "e84095a3a5e02ae2fd0c",
     "url": "/portfolio/static/css/2.20a9cf4a.chunk.css"
   },
   {
-    "revision": "d74b9c9a4c437fdd9c0d",
-    "url": "/portfolio/static/css/main.72a4b3df.chunk.css"
+    "revision": "19c983d82d82667a07ff",
+    "url": "/portfolio/static/css/main.0942d82b.chunk.css"
   },
   {
-    "revision": "f2ade99ff0e143d02223",
-    "url": "/portfolio/static/js/2.2a2f8f89.chunk.js"
+    "revision": "e84095a3a5e02ae2fd0c",
+    "url": "/portfolio/static/js/2.f4a2d828.chunk.js"
   },
   {
     "revision": "1dd0f067e8112150402754ba1d8c0768",
-    "url": "/portfolio/static/js/2.2a2f8f89.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.f4a2d828.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d74b9c9a4c437fdd9c0d",
-    "url": "/portfolio/static/js/main.a6419568.chunk.js"
+    "revision": "19c983d82d82667a07ff",
+    "url": "/portfolio/static/js/main.05d7b957.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/headout.b189df81.png"
   },
   {
+    "revision": "7a3469dd1c91ea38c4937399c395a298",
+    "url": "/portfolio/static/media/jude.7a3469dd.jpg"
+  },
+  {
     "revision": "6a55ef3689624bcb95486fa636c65431",
     "url": "/portfolio/static/media/linkedin 2.6a55ef36.png"
   },
@@ -98,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "73094f7c089171bd90e74c89cc6d36ab",
     "url": "/portfolio/static/media/musicstreaming.73094f7c.png"
+  },
+  {
+    "revision": "15274dc956e368ec2325bb33dfcef53b",
+    "url": "/portfolio/static/media/product-management.15274dc9.png"
   },
   {
     "revision": "ce3222a460e6c7a4e5827b6dd87e6619",
