@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Jude from '../images/jude.jpg';
 
 
 
@@ -21,18 +22,17 @@ function Testimonials() {
       <Carousel.Item className=" text-center">
 
 <div className='testimonial-para text-center'>
-          <p>Austin, for being relatively young, exhibits the experience and talent of someone twice his age in yor being relatively young, exhibits the experience and talent of someone
-</p>
+          <p align="justify">Divit had studied and worked with me as a Teaching Intern. He has an excellent aptitude to learn anything new and teach. All his students were happy to learn from him. I wish him best of luck.</p>
 </div>
 
-<Container className='testimonial' style={{width:'350px'}}>
+<Container className='testimonial' style={{width:'450px'}}>
     <Row >
        <Col xs={3}  className='text-right' style={{padding:'0px'}}>
-       <Image className='img-fluid' src={mine} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
+       <Image className='img-fluid' src={Jude} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
            </Col>
       <Col xs={9}  className='text-left px-3'  >
-      <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Rebecca Flex. CEO at Company.</p>
-      <p style={{padding:'0px', margin:'0px'}}>No one is better than John Doe.</p>
+      <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Jude Miranda. </p>
+      <p style={{padding:'0px', margin:'0px'}}>Founder, Techmentry.com and Neebal.com</p>
       </Col>
     </Row>
   </Container>
@@ -41,18 +41,17 @@ function Testimonials() {
       <Carousel.Item className=" text-center">
 
 <div className='testimonial-para text-center'>
-<p>Austin, for being relatively young, exhibits the experience and talent of someone twice his age in yor being relatively young, exhibits the experience and talent of someone
-</p>
+<p align="justify">I have been working with Divit since he joined Amadeus. Within few days after joining he was able to make his visibility across teams. I thoroughly enjoyed my time working with Divit and came to know him as a truly valuable asset to our team. He is an impressive problem solver who is able to address complex issues strategically and confidently. He is a true team player, and always fosters positive discussions and tries to bring the best out of teammates.</p>
 </div>
 
-<Container className='testimonial' style={{width:'350px'}}>
+<Container className='testimonial' style={{width:'450px'}}>
     <Row >
        <Col xs={3}  className='text-right' style={{padding:'0px'}}>
        <Image className='img-fluid' src={mine} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
            </Col>
       <Col xs={9}  className='text-left px-3'  >
-      <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Rebecca Flex. CEO at Company.</p>
-      <p style={{padding:'0px', margin:'0px'}}>No one is better than John Doe.</p>
+      <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Mohit Kumar</p>
+      <p style={{padding:'0px', margin:'0px'}}>Member Technical Staff at Amadeus</p>
       </Col>
     </Row>
   </Container>
