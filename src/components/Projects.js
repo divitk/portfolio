@@ -88,11 +88,24 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Projects () {
-
   const classes = useStyles();
   const theme = useTheme();
-  const [value, setValue] = React.useState(1);
 
+  const [visible6, setVisible6] = useState(false);
+  const onClickVisible6 = () => setVisible6(!visible6)
+
+  const [visible9, setVisible9] = useState(false);
+  const onClickVisible9 = () => setVisible9(!visible9)
+
+  const [visible12, setVisible12] = useState(false);
+  const onClickVisible12 = () => setVisible12(!visible12)
+
+  const [visible15, setVisible15] = useState(false);
+  const onClickVisible15 = () => setVisible15(!visible15)
+
+  
+
+  const [value, setValue] = React.useState(1);
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -107,14 +120,15 @@ function Projects () {
   }
   const [isActive, setActive] = useState(false);
 
-const toggleClass = () => {
-  setActive(!isActive);
-};
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
 return (
   <div className='Projects'>
   <h1 className='text-center'>Projects</h1>
  <div className={classes.root}>
    <Paper  className='bar'>
+
      <Tabs
         className='Tabs-sm d-lg-none'
         value={value}
@@ -165,20 +179,20 @@ return (
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-<Container fluid style={{padding:'0px'}}>
-    <Row>
-       <Col xs={9}  className=''>
-       <span >Solar Powered Self-Cleaning Toilet</span>
+          <Container fluid style={{padding:'0px'}}>
+              <Row>
+                <Col xs={9}  className=''>
+                <span >Solar Powered Self-Cleaning Toilet</span>
 
-           </Col>
-      <Col xs={3}  className='text-right'>
-      <Button className=''  variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1t5vnrZOHB14cP8t4_MIgorqegzzUKA6M/view?usp=sharing'}}>
-     Details
-     </Button>
-     </Col>
-    </Row>
-  </Container>
-</Card.Body>
+                    </Col>
+                <Col xs={3}  className='text-right'>
+                <Button className=''  variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1t5vnrZOHB14cP8t4_MIgorqegzzUKA6M/view?usp=sharing'}}>
+              Details
+              </Button>
+              </Col>
+              </Row>
+            </Container>
+          </Card.Body>
        </Card>
 
 
@@ -187,9 +201,7 @@ return (
      </TabPanel>
      <TabPanel value={value} index={1} dir={theme.direction}>
      <CardDeck className='CardDeck-lg'>
-
-
-       <Card>
+      <Card>
          <Card.Img className={isActive ? 'asd': null}
       onClick={toggleClass} variant="top"  src={MeruVsOla} alt='loading..' />
 
@@ -200,12 +212,12 @@ return (
           </div>
          </Card.ImgOverlay>
 
- <Card.Body >
-<span >Meru v/s Ola</span> <Button className=''  variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1eQc4nyGDbB0FP7GL2Vf0q_ThWdNasWi2/view?usp=sharing'}}>
-Details
-</Button>
+        <Card.Body >
+        <span >Meru v/s Ola</span> <Button className=''  variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1eQc4nyGDbB0FP7GL2Vf0q_ThWdNasWi2/view?usp=sharing'}}>
+        Details
+        </Button>
 
-</Card.Body>
+        </Card.Body>
        </Card>
        <Card>
          <Card.Img variant="top" className='im' src={Onlinefurniture} alt='loading..' />
@@ -234,18 +246,22 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Flatmate.in</span>    <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1JPPRM_6BzjpVvkf8cFzrLPOJGABB2lCH/view?usp=sharing'}}>
-  Details
-</Button>
-
+        <span >Flatmate.in</span>    
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1JPPRM_6BzjpVvkf8cFzrLPOJGABB2lCH/view?usp=sharing'}}>
+        Details</Button>
         </Card.Body>
        </Card>
-
      </CardDeck>
 
+     {!visible6 ?
+      <div className="text-center">
+        <button className="floated_show_button btn btn-primary mb-2 visible6"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible6}>{visible6 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+      </div>
+    : null }
+
+    {visible6 ?
+      <>
      <CardDeck className='CardDeck-lg'>
-
-
        <Card>
          <Card.Img variant="top" className='im' src={Redbus} alt='loading..' />
 
@@ -256,15 +272,14 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Redbus</span>  <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1U8cemultFc_BHBmBvdgp1tQRYLS7-opA/view?usp=sharing'}}>
-Details
-</Button>
-
+        <span >Redbus</span>
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1U8cemultFc_BHBmBvdgp1tQRYLS7-opA/view?usp=sharing'}}>
+        Details
+        </Button>
         </Card.Body>
        </Card>
        <Card>
          <Card.Img variant="top" className='im' src={Hotstar} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Case study</Card.Title>
@@ -272,15 +287,14 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Hotstar</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1XIEgAg0F9osEJ5IC1IFZqxC_E8GWxMP3/view?usp=sharing'}}>
-Details
-</Button>
+        <span >Hotstar</span>   
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1XIEgAg0F9osEJ5IC1IFZqxC_E8GWxMP3/view?usp=sharing'}}>
+        Details</Button>
         </Card.Body>
        </Card>
 
        <Card>
          <Card.Img variant="top" className='im' src={UserJourneyMap} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>User Journey Maps</Card.Title>
@@ -288,21 +302,28 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Buyonline</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1399C5N2e5KatjSH8UKNibcCKbnFd62p6/view?usp=sharing'}}>
-Details
-</Button>
+        <span >Buyonline</span>
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1399C5N2e5KatjSH8UKNibcCKbnFd62p6/view?usp=sharing'}}>
+        Details
+        </Button>
         </Card.Body>
        </Card>
-
      </CardDeck>
+     </>
+     : null }
+     {/* button for show more */}
+    {(!visible9 && visible6) ?
+      <div className="text-center">
+        <button className="floated_show_button btn btn-primary mb-2 visible9 mr-1"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible9}>{visible9 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+        <button className="floated_show_button btn btn-primary mb-2 not-visible6 ml-1"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible6}>{visible6 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+      </div>
+    : null }
 
+    {visible9 ?
+    <>
      <CardDeck className='CardDeck-lg'>
-
-
-
        <Card>
          <Card.Img variant="top" className='im' src={DoToday} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Sketch, Wireframes and Prototypes</Card.Title>
@@ -311,13 +332,12 @@ Details
          </Card.ImgOverlay>
          <Card.Body >
         <span >DoToday</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1mQ3iSxNFVbyUj3vMfhuIl3b-6CgeY2nG/view?usp=sharing'}}>
-  Details
- </Button>
+          Details
+        </Button>
         </Card.Body>
        </Card>
        <Card>
          <Card.Img variant="top" className='im' src={Zivame} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Industry Project</Card.Title>
@@ -325,45 +345,47 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Zivame</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1lIcz-ZGGDjeBVP2zPFq9PKR0Pa_wqqjB/view?usp=sharing'}}>
-Details
-</Button>
+        <span >Zivame</span> 
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1lIcz-ZGGDjeBVP2zPFq9PKR0Pa_wqqjB/view?usp=sharing'}}>
+        Details
+        </Button>
         </Card.Body>
-
        </Card>
        <Card className='zomato'>
          <Card.Img variant="top" className='im ' src={Zomato} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay animate__fadeInLeft'>
          <Card.Title className='title'>Blogs</Card.Title>
-
-
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Agile Methodology in Zomato</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/example-of-agile-methodology-at-a-company-like-zomato-c33158320f4d'}}>
-  Details
-</Button>
+        <span >Agile Methodology in Zomato</span>  
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/example-of-agile-methodology-at-a-company-like-zomato-c33158320f4d'}}>
+        Details
+        </Button>
         </Card.Body>
        </Card>
-
-
      </CardDeck>
+     </>
+     : null }
+    {(!visible12 && visible9 && visible6 ) ?
+    <div className="text-center">
+      <button className="floated_show_button btn btn-primary mb-2 visible12 mr-1"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible12}>{visible12 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+      <button className="floated_show_button btn btn-primary mb-2 not-visible9 ml-1"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible9}>{visible9 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+    </div>
+    : null }
+
+    {visible12 ?
+    <>
      <CardDeck className='CardDeck-lg'>
-
-
             <Card className='musicCard'>
               <Card.Img variant="top" className='im' src={Musicstreaming} alt='loading..' />
-
               <Card.ImgOverlay >
               <div className='card-ImgOverlay'>
               <Card.Title className=''>Blogs</Card.Title>
-
                </div>
               </Card.ImgOverlay>
               <Card.Body >
-
              <Container fluid style={{padding:'0px'}}>
                  <Row>
                     <Col xs={8}  className=''>
@@ -378,12 +400,9 @@ Details
                  </Row>
                </Container>
                </Card.Body>
-
             </Card>
-
             <Card>
                 <Card.Img variant="top" className='im' src={Lyft} alt='loading..' />
-
                 <Card.ImgOverlay >
                     <div className='card-ImgOverlay'>
                         <Card.Title className=''>Business Model canvas and Value Proposition canvas</Card.Title>
@@ -398,7 +417,6 @@ Details
             </Card>
             <Card>
                  <Card.Img variant="top" className='im' src={HeadOut} alt='loading..' />
-
                  <Card.ImgOverlay >
                      <div className='card-ImgOverlay'>
                          <Card.Title className=''>Product Critique</Card.Title>
@@ -411,17 +429,22 @@ Details
                      </Button>
                  </Card.Body>
             </Card>
-
-
-
      </CardDeck>
+     </>
+     : null }
+     
+     {(!visible15 && visible12 && visible9 && visible6 ) ?
+    <div className="text-center">
+      <button className="floated_show_button btn btn-primary mb-2 visible15 mr-1"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible15}>{visible15 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+      <button className="floated_show_button btn btn-primary mb-2 not-visible15 ml-1"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible12}>{visible12 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+    </div>
+    : null }
+
+    {visible15 ?
+      <>
      <CardDeck className='CardDeck-lg'>
-
-
-
        <Card>
          <Card.Img variant="top" className='im' src={Book} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Blogs</Card.Title>
@@ -429,18 +452,17 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Buy and Sell used books online</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/design-a-mobile-app-that-allows-users-to-easily-buy-and-sell-used-books-a908c96899bb'}}>
-  Details
- </Button>
+        <span >Buy and Sell used books online</span>   
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/design-a-mobile-app-that-allows-users-to-easily-buy-and-sell-used-books-a908c96899bb'}}>
+          Details
+        </Button>
         </Card.Body>
        </Card>
-       <Card>
+       <Card className='musicCard2'>
          <Card.Img variant="top" className='im' src={Siri} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Blogs</Card.Title>
-
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -458,12 +480,9 @@ Details
                  </Row>
                </Container>
         </Card.Body>
-
        </Card>
-       
        <Card>
          <Card.Img variant="top" className='im' src={Cultfit} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Blogs</Card.Title>
@@ -471,24 +490,26 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Analysis of Cult.Fit app</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://divitkarmiani1998.medium.com/analysis-of-cult-fit-app-4753d6444e72'}}>
-Details
-</Button>
+        <span >Analysis of Cult.Fit app</span> 
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://divitkarmiani1998.medium.com/analysis-of-cult-fit-app-4753d6444e72'}}>
+        Details
+        </Button>
         </Card.Body>
-
        </Card>
-
      </CardDeck>
+     </>
+     : null }
 
-
-
-
-
+    {visible15 ?
+      <div className="text-center">
+        <button className="floated_show_button btn btn-primary mb-2 not-visible-15"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible15}>{visible15 ? 'SHOW LESS' : 'SHOW MORE' }</button>
+      </div>
+    : null }
      </TabPanel>
+     
+
      <TabPanel value={value} index={2} dir={theme.direction}>
      <CardDeck className='CardDeck-lg'>
-
-
        <Card>
          <Card.Img variant="top" className='im' src={IMDB} alt='loading..' />
 
@@ -499,30 +520,29 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >IMDB Movie Dataset</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/IMDB-Movie-Dataset-Visualization'}}>
-    Details
-  </Button>
+        <span >IMDB Movie Dataset</span>     
+        <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/IMDB-Movie-Dataset-Visualization'}}>
+          Details
+        </Button>
         </Card.Body>
        </Card>
        <Card>
          <Card.Img variant="top" className='im' src={Credit} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>EDA Case Study</Card.Title>
-
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Credit Loan Dataset</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://github.com/divitk/Credit-Dataset-EDA'}}>
-Details
-</Button>
+        <span >Credit Loan Dataset</span>   
+        <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://github.com/divitk/Credit-Dataset-EDA'}}>
+        Details
+        </Button>
         </Card.Body>
        </Card>
 
        <Card>
          <Card.Img variant="top" className='im' src={Bike} alt='loading..' />
-
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Linear Regression</Card.Title>
@@ -530,13 +550,12 @@ Details
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-        <span >Bike Demand Dataset</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Bike-Demand-Dataset-Linear-Regression'}}>
-    Details
-  </Button>
+        <span >Bike Demand Dataset</span>     
+        <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Bike-Demand-Dataset-Linear-Regression'}}>
+          Details
+        </Button>
         </Card.Body>
        </Card>
-
-
      </CardDeck>
      </TabPanel>
    </SwipeableViews>
