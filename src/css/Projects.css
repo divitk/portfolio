@@ -88,9 +88,11 @@ font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 600px) {
   .musicCard{
-    height: 15.5em;
+    height: 15.5em!important;
   }
-
+  .musicCard2{
+    height: 15.5em!important;
+  }
 }
 
 .musicCard{
@@ -141,7 +143,6 @@ font-family: 'Roboto', sans-serif;
     height: 23em;
   }
 }
-
 
 .button{
   color: red!important;
