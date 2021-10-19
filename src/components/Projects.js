@@ -24,6 +24,9 @@ import Bike from '../images/bike.png';
 import Siri from '../images/siri.jpg';
 import Book from '../images/buysellbookonline.jpg';
 import Cultfit from '../images/cultfit.png';
+import NGO from '../images/NGO.png';
+import Lead_Scoring from '../images/Lead_scoring.png';
+import Retail_Giant from '../images/retail_giant.png';
 
 
 import Card from 'react-bootstrap/Card';
@@ -556,6 +559,59 @@ return (
         </Button>
         </Card.Body>
        </Card>
+     </CardDeck>
+
+     <CardDeck className='CardDeck-lg'>
+
+
+       <Card>
+         <Card.Img variant="top" className='im' src={NGO} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Clustering</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >NGO Aid Country</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/NGO-Aid-Country-Clustering'}}>
+    Details
+  </Button>
+        </Card.Body>
+       </Card>
+       <Card>
+         <Card.Img variant="top" className='im' src={Lead_Scoring} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Logistic Regression</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >EdTech Lead Scoring</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://github.com/divitk/EdTech-Lead-Scoring-Case-Study'}}>
+Details
+</Button>
+        </Card.Body>
+       </Card>
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Retail_Giant} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Time Series Forecasting</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >Retail Giant Sales Forecasting</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Retail-Giant-Sales-Forecasting'}}>
+    Details
+  </Button>
+        </Card.Body>
+       </Card>
+
+
      </CardDeck>
      </TabPanel>
    </SwipeableViews>
