@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f0b7da08a1770aadb5db98d4a4c7121",
+    "revision": "80858bc5530b462eea02995a8ba2b065",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2e72cac0df894c5daf4e",
+    "revision": "9c631c24ab39810e2688",
     "url": "/portfolio/static/css/2.20a9cf4a.chunk.css"
   },
   {
-    "revision": "ac0cc8de23210642ec13",
+    "revision": "299f029c2931fe36f060",
     "url": "/portfolio/static/css/main.e11f5def.chunk.css"
   },
   {
-    "revision": "2e72cac0df894c5daf4e",
-    "url": "/portfolio/static/js/2.4dafdcd7.chunk.js"
+    "revision": "9c631c24ab39810e2688",
+    "url": "/portfolio/static/js/2.df3bedc9.chunk.js"
   },
   {
     "revision": "1dd0f067e8112150402754ba1d8c0768",
-    "url": "/portfolio/static/js/2.4dafdcd7.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.df3bedc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac0cc8de23210642ec13",
-    "url": "/portfolio/static/js/main.12b44458.chunk.js"
+    "revision": "299f029c2931fe36f060",
+    "url": "/portfolio/static/js/main.8c7ed2c6.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Flatmate.55b33524.png"
   },
   {
+    "revision": "f55561a0a818efa39db7b428d09a5c0c",
+    "url": "/portfolio/static/media/Lead_scoring.f55561a0.png"
+  },
+  {
     "revision": "286bb3fec477312809f521eaa82a7865",
     "url": "/portfolio/static/media/Lyft.286bb3fe.jpg"
   },
   {
     "revision": "656d39f04145de405504983e30ca9fc2",
     "url": "/portfolio/static/media/MeruVsOla2.656d39f0.jpg"
+  },
+  {
+    "revision": "7057dadcb388cb82abf2a69d0c62b52e",
+    "url": "/portfolio/static/media/NGO.7057dadc.png"
   },
   {
     "revision": "980d8077a75283610db438555730803c",
@@ -114,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce3222a460e6c7a4e5827b6dd87e6619",
     "url": "/portfolio/static/media/redbus.ce3222a4.png"
+  },
+  {
+    "revision": "a211e11651474ea66622d81729dfece8",
+    "url": "/portfolio/static/media/retail_giant.a211e116.png"
   },
   {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
