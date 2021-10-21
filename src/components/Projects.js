@@ -27,7 +27,9 @@ import Cultfit from '../images/cultfit.png';
 import NGO from '../images/NGO.png';
 import Lead_Scoring from '../images/Lead_scoring.png';
 import Retail_Giant from '../images/retail_giant.png';
-
+import Telecom from '../images/telecom.jpg';
+import ProbSolve from '../images/Probsolve.jpg';
+import StaffPlan from '../images/staffplan.png';
 
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -606,6 +608,59 @@ Details
          </Card.ImgOverlay>
          <Card.Body >
         <span >Retail Giant Sales Forecasting</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Retail-Giant-Sales-Forecasting'}}>
+    Details
+  </Button>
+        </Card.Body>
+       </Card>
+
+
+     </CardDeck>
+
+     <CardDeck className='CardDeck-lg'>
+
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Telecom} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Machine Learning</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >Telecom Churn Case Study</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Telecom-Churn-Case-Study'}}>
+    Details
+  </Button>
+        </Card.Body>
+       </Card>
+       <Card>
+         <Card.Img variant="top" className='im' src={ProbSolve} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Solving Frameworks</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >Structured Solving Frameworks</span>   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1zpOEqVwOaysQWtrMldJTj8yxNDbDslvz/view?usp=sharing'}}>
+Details
+</Button>
+        </Card.Body>
+       </Card>
+
+       <Card>
+         <Card.Img variant="top" className='im' src={StaffPlan} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Optimization(Pyomo)</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >Staff Planning Case Study</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Staff-Planning-Case-Study'}}>
     Details
   </Button>
         </Card.Body>
