@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80858bc5530b462eea02995a8ba2b065",
+    "revision": "c9a9be6d0c8318dffaa8eecba583e859",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9c631c24ab39810e2688",
+    "revision": "cf7591b63adb25e96333",
     "url": "/portfolio/static/css/2.20a9cf4a.chunk.css"
   },
   {
-    "revision": "299f029c2931fe36f060",
+    "revision": "2a189bba2a88c32cbc9c",
     "url": "/portfolio/static/css/main.e11f5def.chunk.css"
   },
   {
-    "revision": "9c631c24ab39810e2688",
-    "url": "/portfolio/static/js/2.df3bedc9.chunk.js"
+    "revision": "cf7591b63adb25e96333",
+    "url": "/portfolio/static/js/2.44d08a8a.chunk.js"
   },
   {
     "revision": "1dd0f067e8112150402754ba1d8c0768",
-    "url": "/portfolio/static/js/2.df3bedc9.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.44d08a8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "299f029c2931fe36f060",
-    "url": "/portfolio/static/js/main.8c7ed2c6.chunk.js"
+    "revision": "2a189bba2a88c32cbc9c",
+    "url": "/portfolio/static/js/main.71688ae2.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "980d8077a75283610db438555730803c",
     "url": "/portfolio/static/media/Onlinefurniture.980d8077.png"
+  },
+  {
+    "revision": "a9884884f143f2d85a4bafddef73e9b4",
+    "url": "/portfolio/static/media/Probsolve.a9884884.jpg"
   },
   {
     "revision": "f8ca9a4d10637bfc209b3defa9ff7d05",
@@ -142,6 +146,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9b8084e3062a8124564a88840a9cbfab",
     "url": "/portfolio/static/media/siri.9b8084e3.jpg"
+  },
+  {
+    "revision": "93e8d39760e691d94a32a417e075ed67",
+    "url": "/portfolio/static/media/staffplan.93e8d397.png"
+  },
+  {
+    "revision": "8a3f447f241ad08333289254e7580c68",
+    "url": "/portfolio/static/media/telecom.8a3f447f.jpg"
   },
   {
     "revision": "ace62b3c3cf841c32d9bb80e2bd991fd",
