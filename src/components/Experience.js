@@ -15,7 +15,7 @@ function Experience() {
   <Timeline lineColor={'#ddd'}>
     <TimelineItem
       key="001"
-      dateText="08/2021 – Present"
+      dateText="08/2021 – 12/2021"
       dateInnerStyle={{ background: '#61b8ff' , color: '#000' }}
       bodyContainerStyle={{
         background: '#ddd',
@@ -27,7 +27,7 @@ function Experience() {
       <h3 style={{ color: '#e86971' }}>Vedantu</h3>
       <h4 style={{ color: '#e86971' }}><img src={PM}  className='mx-1' width='38px' height='38px'  alt='loading..' />Product Associate</h4>
       <p>
-      - Responsible for product analytics, GTM strategies and UAT testing
+      - Responsible for product analytics, A/B experiment setup and collecting & analysing qualitative feedback from customers
       </p>
     </TimelineItem>
     <TimelineItem

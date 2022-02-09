@@ -47,7 +47,10 @@ class Skills extends React.Component {
   <Card.Body>
 
       <div className=''>
-    <p>If you ask his friends, they will say he is the one to keep close and that they wouldn’t change a thing about him. His goal in life is to fulfill the meaning of his name – “Immortal”. And Product management can help him achieve that. The impact of products can reach a wide array of audience and can make a small yet significant difference to someone’s life. Even though he has just started the race, he is on the right track and he aspires to win it too someday with his determination.</p>
+    <p>Product Management is a means to an end. I believe in building the right products in order to solve problems to meet consumer needs. Product Management is instrumental in shaping tomorrow, hence motivating me to be one of the contributors. I am always thrilled to have new experiences and strive to try everything at least once in my life. While on some days I am guiding my peers in facing their challenges, other days I am constantly watching Netflix.
+
+Reach out to me, if you want to talk about creating software products, cricket or random philosophy.
+</p>
 
                 </div>
                 </Card.Body>

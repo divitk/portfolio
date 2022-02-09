@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Typist from 'react-typist';
+import mine1 from '../images/Divit_Karmiani.jpg';
 
 import '../css/Home.css';
 
@@ -18,7 +19,7 @@ function AboutMe() {
   <Container fluid>
       <Row>
          <Col xs={12} sm={5} className=' text-center'>
-          <Image className='mine img-fluid' src={mine} roundedCircle  alt='loading..' />
+          <Image className='mine img-fluid' src={mine1} roundedCircle  alt='loading..' />
         </Col>
         <Col xs={12}  sm={7} className=''>
         <div className='AboutText'>
@@ -27,7 +28,7 @@ function AboutMe() {
         <Typist cursor={{ hideWhenDone: true }}>
         <span className=''>Aspiring Product Manager</span>
         </Typist>
-        <h1 className=''>based in Mumbai.</h1>
+        <h1 className=''>studying at Carnegie Mellon University.</h1>
         <a className='ml-1' href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin} height='40px'  alt='loading..' /></a>
         <a className='ml-1' href="mailto:divitkarmiani1998@gmail.com"><img src={gmail} height='35px'  alt='loading..' /></a>
         <a className='ml-1' href="https://medium.com/@divitkarmiani1998"><img src={medium} height='40px'  alt='loading..' /></a>

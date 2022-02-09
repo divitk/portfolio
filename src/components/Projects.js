@@ -30,6 +30,7 @@ import Retail_Giant from '../images/retail_giant.png';
 import Telecom from '../images/telecom.jpg';
 import ProbSolve from '../images/Probsolve.jpg';
 import StaffPlan from '../images/staffplan.png';
+import Capstone from '../images/Capstone.jpeg';
 
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -667,6 +668,26 @@ Details
        </Card>
 
 
+     </CardDeck>
+
+     <CardDeck className='CardDeck-big'>
+
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Capstone} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+         <Card.Title className=''>Capstone Project</Card.Title>
+
+          </div>
+         </Card.ImgOverlay>
+         <Card.Body >
+        <span >E-commerce Market Mix Modeling</span>     <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://github.com/divitk/Market-Mix-Modeling-Capstone-Project'}}>
+    Details
+  </Button>
+        </Card.Body>
+       </Card>
      </CardDeck>
      </TabPanel>
    </SwipeableViews>

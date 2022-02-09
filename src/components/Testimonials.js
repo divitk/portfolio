@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Jude from '../images/jude.jpg';
 import Mohit from '../images/mohit.jpg';
+import Rajesh from '../images/rajesh.jpg';
 
 
 import '../css/Testimonials.css';
@@ -51,6 +52,25 @@ function Testimonials() {
       <Col xs={9}  className='text-left' style={{padding:'0px'}}>
       <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Mohit Kumar</p>
       <p style={{padding:'0px', margin:'0px'}}>Member Technical Staff at Amadeus</p>
+      </Col>
+    </Row>
+  </Container>
+      </Carousel.Item>
+
+      <Carousel.Item className=" text-center">
+
+<div className='testimonial-para-mohit text-center'>
+<p align="justify">Divit joined my team as a fresher at Amadeus Software Labs. It was an absolute pleasure to work with Divit as I was astonished by his quick learning skills and quick adaption to the situations or challenges. He is a good team player as he always shares his knowledge and never hesitated to take up any challenging tasks. He was really a good asset for the team as he did contribute on many critical tasks. I wish him all the best for his future and he would be a big asset for any company he works for!</p>
+</div>
+
+<Container className='mohit'>
+    <Row >
+       <Col className='text-right'>
+       <Image className='img-fluid' src={Rajesh} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
+           </Col>
+      <Col xs={9}  className='text-left' style={{padding:'0px'}}>
+      <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Rajesh Kataraki</p>
+      <p style={{padding:'0px', margin:'0px'}}>Manager - DevOps (Cloud SRE)</p>
       </Col>
     </Row>
   </Container>
