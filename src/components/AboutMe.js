@@ -47,9 +47,11 @@ class Skills extends React.Component {
   <Card.Body>
 
       <div className=''>
-    <p>Product Management is a means to an end. I believe in building the right products in order to solve problems to meet consumer needs. Product Management is instrumental in shaping tomorrow, hence motivating me to be one of the contributors. I am always thrilled to have new experiences and strive to try everything at least once in my life. While on some days I am guiding my peers in facing their challenges, other days I am constantly watching Netflix.
+    <p>Product management, to him, is not just a profession; it's a calling. The ability to innovate, empathize with users, and collaborate with brilliant minds to bring ideas to life excites him every day. 
 
-Reach out to me, if you want to talk about creating software products, cricket or random philosophy.
+As a Product Manager at Pilot Flying J, he leads the design and implementation of APIs that revolutionize the parking reservation system and mobile fueling. Witnessing the tangible impact of his work on truck drivers' lives drives his passion for creating meaningful products.
+
+He is always thrilled to have interactions and learn from others. Let's connect and embark on an exciting journey of creating products that make a difference!
 </p>
 
                 </div>

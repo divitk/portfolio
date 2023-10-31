@@ -18,10 +18,10 @@ class Chart extends Component {
     LegendPosition: "top",
     level: "Skills",
     data: {
-      labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management","Data Science"],
+      labels: ["Product Management","User Research","Python","SQL","Figma","Amplitude","Aha","JIRA","Data Science","Machine Learning"],
       datasets: [
         {
-          data: [4,2,2,3,2,2,2,1,1,1,0],
+          data: [4,4,4,4,4,4,4,4,4,4],
           backgroundColor: [
             "rgba(54, 162, 235, 0.6)",
             "rgba(255, 206, 86, 0.6)",

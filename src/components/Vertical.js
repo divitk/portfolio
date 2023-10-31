@@ -17,21 +17,21 @@ class VerticalChart extends Component {
     LegendPosition: "top",
     level: "Skills",
     data: {
-      labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management","Data Science"],
+      labels: ["Product Management","User Research","Python","SQL","Figma","Amplitude","Aha","JIRA","Data Science","Machine Learning"],
       datasets: [
         {
-          data: [4,2,2,3,2,2,2,1,1,1,0],
+          data: [4,4,4,4,4,4,4,4,4,4,0],
           backgroundColor: [
-            "rgba(54, 162, 235, 0.6)",
-            "rgba(255, 206, 86, 0.6)",
-            "rgba(75, 192, 192, 0.6)",
-            "rgba(153, 102, 235, 0.6)",
-            "rgba(255, 159, 132, 0.6)",
-            "rgba(255, 99, 132, 0.6)",
-            "rgba(100, 30, 55, 0.6)",
-            "rgba(255, 159, 32, 0.6)",
-            "rgba(255, 99, 92, 0.6)",
-            "rgba(160, 73, 186, 0.6)"
+            "rgba(0,0,164, 1)",
+            "rgba(0,0,137, 1)",
+            "rgba(0,0,118, 1)",
+            "rgba(0,0,100, 1)",
+            "rgba(0,0,92, 1)",
+            "rgba(0,0,75, 1)",
+            "rgba(0,0,64, 1)",
+            "rgba(0,0,49, 1)",
+            "rgba(0,0,35, 1)",
+            "rgba(0,0,28, 1)"
           ],
               label: false
         }

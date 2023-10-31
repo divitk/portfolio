@@ -9,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 import Jude from '../images/jude.jpg';
 import Mohit from '../images/mohit.jpg';
 import Rajesh from '../images/rajesh.jpg';
+import Jessica from '../images/Jessica.jpg';
 
 
 import '../css/Testimonials.css';
@@ -71,6 +72,25 @@ function Testimonials() {
       <Col xs={9}  className='text-left' style={{padding:'0px'}}>
       <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Rajesh Kataraki</p>
       <p style={{padding:'0px', margin:'0px'}}>Manager - DevOps (Cloud SRE)</p>
+      </Col>
+    </Row>
+  </Container>
+      </Carousel.Item>
+
+      <Carousel.Item className=" text-center">
+
+<div className='testimonial-para-mohit text-center'>
+<p align="justify">Divit and I worked together on several projects for our Distributed Retail Sales division. Divit always came to meetings prepared and established great rapport with me and several businesses stakeholders. Any task Divit was given he approached it with confidence, professionalism and delivered quality work. I strongly recommend Divit as a Product Manager for an organization looking for a well qualified team player!</p>
+</div>
+
+<Container className='mohit'>
+    <Row >
+       <Col className='text-right'>
+       <Image className='img-fluid' src={Jessica} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
+           </Col>
+      <Col xs={9}  className='text-left' style={{padding:'0px'}}>
+      <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Jessica Truitt</p>
+      <p style={{padding:'0px', margin:'0px'}}>VP of IT Business Support, AmeriSave Mortgage Corporation</p>
       </Col>
     </Row>
   </Container>

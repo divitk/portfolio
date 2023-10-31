@@ -111,7 +111,7 @@ function Projects () {
 
   
 
-  const [value, setValue] = React.useState(1);
+  const [value, setValue] = React.useState(0);
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -146,9 +146,9 @@ return (
            aria-label="scrollable auto tabs example"
 
      >
-       <Tab className='t' label="Engineering Final year project" {...a11yProps(0)} />
-       <Tab label="Product Management Coursework" {...a11yProps(1)} />
-       <Tab label="Data Science Coursework" {...a11yProps(2)} />
+//       <Tab className='t' label="Engineering Final year project" {...a11yProps(0)} />
+       <Tab label="Product Management Projects" {...a11yProps(0)} />
+       <Tab label="Data Science Projects" {...a11yProps(1)} />
      </Tabs>
      <Tabs
         className='Tabs-lg d-none d-lg-block'
@@ -161,9 +161,9 @@ return (
       centered
 
      >
-       <Tab label="Engineering Final year project" {...a11yProps(0)} />
-       <Tab  label="Product Management Coursework" {...a11yProps(1)} />
-       <Tab label="Data Science Coursework" {...a11yProps(2)} />
+
+       <Tab  label="Product Management Projects" {...a11yProps(0)} />
+       <Tab label="Data Science Projects" {...a11yProps(1)} />
      </Tabs>
    </Paper>
    <SwipeableViews
@@ -171,6 +171,7 @@ return (
      index={value}
      onChangeIndex={handleChangeIndex}
    >
+    {/*
      <TabPanel value={value} index={0} dir={theme.direction}>
      <CardDeck className='CardDeck-big mx-auto'>
 
@@ -205,7 +206,8 @@ return (
      </CardDeck>
 
      </TabPanel>
-     <TabPanel value={value} index={1} dir={theme.direction}>
+ */}
+     <TabPanel value={value} index={0} dir={theme.direction}>
      <CardDeck className='CardDeck-lg'>
       <Card>
          <Card.Img className={isActive ? 'asd': null}
@@ -259,14 +261,15 @@ return (
        </Card>
      </CardDeck>
 
-     {!visible6 ?
+ {/*    {!visible6 ?
       <div className="text-center">
         <button className="floated_show_button btn btn-primary mb-2 visible6"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible6}>{visible6 ? 'SHOW LESS' : 'SHOW MORE' }</button>
       </div>
     : null }
 
     {visible6 ?
-      <>
+    <>
+    */}
      <CardDeck className='CardDeck-lg'>
        <Card>
          <Card.Img variant="top" className='im' src={Redbus} alt='loading..' />
@@ -315,9 +318,9 @@ return (
         </Card.Body>
        </Card>
      </CardDeck>
-     </>
+ { /*   </>
      : null }
-     {/* button for show more */}
+
     {(!visible9 && visible6) ?
       <div className="text-center">
         <button className="floated_show_button btn btn-primary mb-2 visible9 mr-1"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible9}>{visible9 ? 'SHOW LESS' : 'SHOW MORE' }</button>
@@ -326,7 +329,7 @@ return (
     : null }
 
     {visible9 ?
-    <>
+    <>*/}
      <CardDeck className='CardDeck-lg'>
        <Card>
          <Card.Img variant="top" className='im' src={DoToday} alt='loading..' />
@@ -346,7 +349,7 @@ return (
          <Card.Img variant="top" className='im' src={Zivame} alt='loading..' />
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Industry Project</Card.Title>
+         <Card.Title className=''>Capstone Project</Card.Title>
 
           </div>
          </Card.ImgOverlay>
@@ -372,7 +375,7 @@ return (
         </Card.Body>
        </Card>
      </CardDeck>
-     </>
+   {/*  </>
      : null }
     {(!visible12 && visible9 && visible6 ) ?
     <div className="text-center">
@@ -382,7 +385,7 @@ return (
     : null }
 
     {visible12 ?
-    <>
+    <>*/}
      <CardDeck className='CardDeck-lg'>
             <Card className='musicCard'>
               <Card.Img variant="top" className='im' src={Musicstreaming} alt='loading..' />
@@ -436,7 +439,7 @@ return (
                  </Card.Body>
             </Card>
      </CardDeck>
-     </>
+ {/*    </>
      : null }
      
      {(!visible15 && visible12 && visible9 && visible6 ) ?
@@ -447,7 +450,7 @@ return (
     : null }
 
     {visible15 ?
-      <>
+    <>*/}
      <CardDeck className='CardDeck-lg'>
        <Card>
          <Card.Img variant="top" className='im' src={Book} alt='loading..' />
@@ -503,18 +506,18 @@ return (
         </Card.Body>
        </Card>
      </CardDeck>
-     </>
+{/*     </>
      : null }
 
     {visible15 ?
       <div className="text-center">
         <button className="floated_show_button btn btn-primary mb-2 not-visible-15"   type="button"  variant="contained" color="primary" size="sm" onClick={onClickVisible15}>{visible15 ? 'SHOW LESS' : 'SHOW MORE' }</button>
       </div>
-    : null }
+    : null }*/}
      </TabPanel>
      
 
-     <TabPanel value={value} index={2} dir={theme.direction}>
+     <TabPanel value={value} index={1} dir={theme.direction}>
      <CardDeck className='CardDeck-lg'>
        <Card>
          <Card.Img variant="top" className='im' src={IMDB} alt='loading..' />

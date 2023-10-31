@@ -19,7 +19,7 @@
     "react-dom": "^16.14.0",
     "react-gradient-progress": "^1.0.3",
     "react-multi-carousel": "^2.6.3",
-    "react-scripts": "3.4.2",
+    "react-scripts": "^3.4.2",
     "react-scroll": "^1.8.2",
     "react-skillbars": "^1.6.1",
     "react-swipeable-views": "^0.13.9",
@@ -31,9 +31,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
