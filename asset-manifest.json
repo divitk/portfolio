@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e11f5def.chunk.css",
-    "main.js": "/portfolio/static/js/main.14533dd3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.14533dd3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d1c83649.chunk.css",
+    "main.js": "/portfolio/static/js/main.79812c12.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.79812c12.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.20a9cf4a.chunk.css": "/portfolio/static/css/2.20a9cf4a.chunk.css",
-    "static/js/2.bc6d8200.chunk.js": "/portfolio/static/js/2.bc6d8200.chunk.js",
-    "static/js/2.bc6d8200.chunk.js.map": "/portfolio/static/js/2.bc6d8200.chunk.js.map",
+    "static/js/2.72df22ee.chunk.js": "/portfolio/static/js/2.72df22ee.chunk.js",
+    "static/js/2.72df22ee.chunk.js.map": "/portfolio/static/js/2.72df22ee.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c1e837e1f57e3afff9974eedfcdd475d.js": "/portfolio/precache-manifest.c1e837e1f57e3afff9974eedfcdd475d.js",
+    "precache-manifest.b7d28a2b8e1df00cfc98faf9bdcb067c.js": "/portfolio/precache-manifest.b7d28a2b8e1df00cfc98faf9bdcb067c.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.20a9cf4a.chunk.css.map": "/portfolio/static/css/2.20a9cf4a.chunk.css.map",
-    "static/css/main.e11f5def.chunk.css.map": "/portfolio/static/css/main.e11f5def.chunk.css.map",
-    "static/js/2.bc6d8200.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bc6d8200.chunk.js.LICENSE.txt",
+    "static/css/main.d1c83649.chunk.css.map": "/portfolio/static/css/main.d1c83649.chunk.css.map",
+    "static/js/2.72df22ee.chunk.js.LICENSE.txt": "/portfolio/static/js/2.72df22ee.chunk.js.LICENSE.txt",
     "static/media/Capstone.jpeg": "/portfolio/static/media/Capstone.886a3b05.jpeg",
     "static/media/Divit_Karmiani.jpg": "/portfolio/static/media/Divit_Karmiani.5a3559f7.jpg",
     "static/media/DoToday.jpg": "/portfolio/static/media/DoToday.eb1866e3.jpg",
@@ -52,8 +52,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.20a9cf4a.chunk.css",
-    "static/js/2.bc6d8200.chunk.js",
-    "static/css/main.e11f5def.chunk.css",
-    "static/js/main.14533dd3.chunk.js"
+    "static/js/2.72df22ee.chunk.js",
+    "static/css/main.d1c83649.chunk.css",
+    "static/js/main.79812c12.chunk.js"
   ]
 }
